@@ -1,22 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 * {
     margin: 0;
     padding: 0;
 }
-
+body{
+    margin: 0 122px;
+}
 
 /* Header Section */
 .header {
-    background: url(/images/Banner\ Image.png);
+    background: url(../images/Banner\ Image.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 16px;
     width: 1122px;
     height: 80vh;
-    margin: 42.5px 122px;
+    margin: 42.5px 0;
     font-family: "Merriweather", serif;
+    margin-bottom: 80px;
 }
 
 .header-content {
@@ -37,4 +40,158 @@
 }
 .header-main{
     font-size: 61px;
+}
+
+/* Discount sectiion start */
+#discount{
+    text-align: center;
+    font-family: "Inter", serif;
+    margin-bottom: 70px;
+}
+#discount .off{
+    font-size: 75px;
+    color: red;
+    margin-bottom: 23px;
+}
+#discount .dis-sub{
+    color: red;
+    font-size: 20.5px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+#discount .dis-title{
+    font-size: 41px;
+    margin-bottom: 40px;
+
+}
+/* party section */
+#party{
+    background: url(../images/Vectorrr.png);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    width: 1122px;
+    height: 80vh;
+    margin-bottom: 70px;
+    font-family: "Merriweather", serif;
+}
+.party-bg{
+    text-align: center;
+    color: white;
+    border-radius: 16px;
+    width: 1122px;
+    background: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%);
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+.party-img img{
+    height: 410px;
+    width: 260px;
+    margin: 0 80px;
+}
+.party-content{
+    margin-left: 100px;
+}
+.party-content h1{
+    font-size: 57px;
+    line-height: 80px;
+}
+.party-content p{
+    font-size: 15px;
+    font-family: "inter",serif;
+    line-height: 22px;
+    margin-top: 17px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.party-content button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "inter",serif;
+    margin-left: 20px;
+    cursor: pointer;
+}
+/* party-details */
+#party-details{
+    height: 400px;
+    width: 1123px;
+    background:linear-gradient(to bottom,rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0));
+    text-align: center;
+    border-radius: 14px;
+    margin-bottom: 60px;
+}
+.party-details-content{
+padding: 85px 300px;
+line-height: 40px;
+}
+.party-details-p{
+    font-family: "inter",serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.party-details-p span{
+    color: red;
+}
+.button-join{
+    padding: 13px 26px;
+    margin-top: 35px;
+    font-family: "inter",serif;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: #FF0000;
+    color: WHITE;
+    border: none;
+    cursor: pointer;    
+}
+/* best offer section */
+#best-offer{
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "inter",serif;
+}
+.best-offer-content{
+    width: 35%;
+    margin-right: 40px;
+}
+.best-offer-content .red{
+    font-size: 18.5px;
+    color: red;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.best-offer-content h1{
+    font-size: 35px;
+    font-family:"Merriweather", serif ;
+    margin-bottom: 15px;
+}
+.best-offer-content p{
+    color: rgba(7, 2, 17, 0.6);
+}
+.best-offer-img img{
+    width: 80%;
+    border: 10px solid red;
+    border-radius: 50%;
+    padding: 30px;
+}
+.best-offer-end{
+    margin-left: 100px;
+}
+.best-offer-end h1{
+    color: red;
+    margin-top: 20px;
+    font-size: 35px ;
+    margin-bottom: 20px;
+}
+.best-offer-end p{
+    color: rgba(7, 2, 17, 0.6);
+    margin-bottom: 30px;
 }
